@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(188, 235, 188);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(20,50px);
+    grid-template-rows: repeat(10,50px);
+    grid-gap:2px;
+    margin: 25px;
+    padding: 15px;
+}
+.cells{
+    background-color: rgb(90, 210, 100);
+}
+#score{
+    color: rgb(111, 55, 35);
+}
+
+
